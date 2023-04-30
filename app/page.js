@@ -4,6 +4,8 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
+import Image from "next/image";
+import Mario from "../public/mario-avatar.png";
 
 export default function Home() {
   return (
@@ -39,6 +41,12 @@ export default function Home() {
           <AiFillTwitterCircle />
           <AiFillLinkedin />
           <AiFillYoutube />
+        </div>
+        <div
+          // style={{ position: "relative" }}
+          className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20"
+        >
+          <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
         </div>
       </section>
     </main>
