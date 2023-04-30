@@ -42,11 +42,13 @@ export default function Home() {
           <AiFillLinkedin />
           <AiFillYoutube />
         </div>
-        <div
-          // style={{ position: "relative" }}
-          className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20"
-        >
+        <div className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-16 overflow-hidden">
           <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3>Services I offer</h3>
         </div>
       </section>
     </main>
