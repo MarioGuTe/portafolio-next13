@@ -5,7 +5,7 @@ export default function Home() {
     <main className=" bg-white px-5 ">
       <section className="min-h-screen">
         <nav className=" py-10 mb-12 flex justify-between">
-          <h1 className=" text-lg">Mario Gutiérrez</h1>
+          <h1 className=" text-lg font-burtons">Mario Gutiérrez</h1>
           <ul className=" flex items-center">
             <li>
               <BsFillMoonStarsFill className=" cursor-pointer text-xl" />
