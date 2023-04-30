@@ -9,10 +9,16 @@ import Mario from "../public/mario-avatar.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
+import web1 from "../public/web1.png";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
+import web6 from "../public/web6.png";
 
 export default function Home() {
   return (
-    <main className=" bg-white px-5 ">
+    <main className=" bg-white px-10 md:px-20 lg:px-40">
       <section className="min-h-screen">
         <nav className=" py-10 mb-12 flex justify-between">
           <h1 className=" text-base font-burtons">MARIO GUTIÉRREZ</h1>
@@ -31,11 +37,13 @@ export default function Home() {
           </ul>
         </nav>
         <div className="text-center p-10">
-          <h2 className=" text-5xl py-2 text-teal-600 font-medium">
+          <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
             Mario Gutiérrez
           </h2>
-          <h3 className=" text-2xl py-2">Desarrollador Fullstack JavaScript</h3>
-          <p className=" text-md py-5 leading-8 text-gray-800">
+          <h3 className=" text-2xl py-2 md:text-3xl">
+            Desarrollador Fullstack JavaScript
+          </h3>
+          <p className=" text-lg py-5 leading-8 text-gray-800 md:text-xl">
             El cariño por aprender es la mejor habilidad que puede cultivar un
             desarrollador.
           </p>
@@ -115,6 +123,43 @@ export default function Home() {
             <p className=" text-gray-800 py-1">Figma</p>
             <p className=" text-gray-800 py-1">Photoshop</p>
             <p className=" text-gray-800 py-1">Photoshop</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3 className=" text-3xl py-1">Portafolio</h3>
+          <p className="text-md py-2 leading-8 text-gray-800">
+            Since the beginning of my journey as a freelance designer and
+            developer, I've done remote work for
+            <span className="text-teal-500"> agencies </span>
+            consulted for <span className="text-teal-500">startups </span>
+            and collaborated with talanted people to create digital products for
+            both business and consumer use.
+          </p>
+          <p className="text-md py-2 leading-8 text-gray-800">
+            I offer from a wide range of services, including brand design,
+            programming and teaching.
+          </p>
+        </div>
+        <div>
+          <div>
+            <Image src={web1} />
+          </div>
+          <div>
+            <Image src={web2} />
+          </div>
+          <div>
+            <Image src={web3} />
+          </div>
+          <div>
+            <Image src={web4} />
+          </div>
+          <div>
+            <Image src={web5} />
+          </div>
+          <div>
+            <Image src={web6} />
           </div>
         </div>
       </section>
