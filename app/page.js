@@ -5,21 +5,18 @@ import {
   DiJsBadge,
   DiCss3Full,
   DiHtml5,
-  DiGit,
   DiReact,
   DiNodejsSmall,
 } from "react-icons/di";
 import Image from "next/image";
 import Mario from "../public/mario-avatar.png";
-import design from "../public/design.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import Cards from "./components/Cards";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -65,7 +62,6 @@ export default function Home() {
             <DiHtml5 />
             <DiCss3Full />
             <DiJsBadge />
-            {/* <DiGit /> */}
             <DiReact />
             <DiNodejsSmall />
           </div>
@@ -91,68 +87,8 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <div className=" lg:flex gap-10">
-            {/* card 1 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-              <Image
-                src={design}
-                width={100}
-                height={100}
-                className=" mx-auto"
-              />
-              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-                Beautiful Designs
-              </h3>
-              <p className=" py-2  dark:text-white">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-            </div>
-            {/* card 2 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-              <Image
-                src={design}
-                width={100}
-                height={100}
-                className=" mx-auto"
-              />
-              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-                Beautiful Designs
-              </h3>
-              <p className=" py-2  dark:text-white">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-            </div>
-            {/* card 3 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-              <Image
-                src={design}
-                width={100}
-                height={100}
-                className=" mx-auto"
-              />
-              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-                Beautiful Designs
-              </h3>
-              <p className=" py-2  dark:text-white">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-            </div>
-          </div>
+          {/* Cards Section */}
+          <Cards />
         </section>
         <section className=" pt-24">
           <div>
