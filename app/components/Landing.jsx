@@ -11,7 +11,7 @@ import {
 
 const Landing = () => {
   return (
-    <>
+    <section className="min-h-screen">
       <div className="text-center p-10">
         <h2 className=" text-5xl py-2 font-semibold text-violet-500  md:text-6xl">
           Mario Gutiérrez
@@ -34,7 +34,7 @@ const Landing = () => {
       <div className=" relative mx-auto bg-gradient-to-b from-violet-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
         <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
       </div>
-    </>
+    </section>
   );
 };
 
