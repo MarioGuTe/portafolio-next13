@@ -29,12 +29,14 @@ export default function Home() {
       <main className={` bg-white px-10 md:px-20 lg:px-40  dark:bg-zinc-900`}>
         <section className="min-h-screen">
           <nav className=" py-10 mb-12 flex justify-between">
-            <h1 className=" text-base font-burtons">MARIO GUTIÉRREZ</h1>
+            <h1 className=" text-base font-burtons  dark:text-white">
+              MARIO GUTIÉRREZ
+            </h1>
             <ul className=" flex items-center">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-xl"
+                  className=" cursor-pointer text-xl  dark:text-white"
                 />
               </li>
               <li>
@@ -48,13 +50,13 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className=" text-5xl py-2 font-semibold text-violet-600  md:text-6xl">
+            <h2 className=" text-5xl py-2 font-semibold text-violet-500  md:text-6xl">
               Mario Gutiérrez
             </h2>
-            <h3 className=" text-2xl py-2 md:text-3xl">
+            <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">
               Desarrollador Fullstack JavaScript
             </h3>
-            <p className=" text-lg py-3 leading-8 text-gray-800 md:text-xl">
+            <p className=" text-lg py-3 leading-8 text-gray-800 md:text-xl  dark:text-white">
               El cariño por aprender es la mejor habilidad que puede cultivar un
               desarrollador.
             </p>
@@ -73,90 +75,97 @@ export default function Home() {
         </section>
         <section>
           <div className="mt-8">
-            <h3 className=" text-2xl py-2">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className=" text-2xl py-2  dark:text-white">
+              Services I offer
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              <span className="text-violet-500 "> agencies </span>
+              consulted for <span className="text-violet-500">startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
           </div>
           <div className=" lg:flex gap-10">
             {/* card 1 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
               <Image
                 src={design}
                 width={100}
                 height={100}
                 className=" mx-auto"
               />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
+              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
                 Beautiful Designs
               </h3>
-              <p className=" py-2">
+              <p className=" py-2  dark:text-white">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className=" py-4 text-teal-600">Design tools I use</h4>
-              <p className=" text-gray-800 py-1">Figma</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
+              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
             </div>
             {/* card 2 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
               <Image
-                src={consulting}
+                src={design}
                 width={100}
                 height={100}
                 className=" mx-auto"
               />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
+              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
                 Beautiful Designs
               </h3>
-              <p className=" py-2">
+              <p className=" py-2  dark:text-white">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className=" py-4 text-teal-600">Design tools I use</h4>
-              <p className=" text-gray-800 py-1">Figma</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
+              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
             </div>
             {/* card 3 */}
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={code} width={100} height={100} className=" mx-auto" />
-              <h3 className=" text-lg font-medium pt-8 pb-2">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
+              <Image
+                src={design}
+                width={100}
+                height={100}
+                className=" mx-auto"
+              />
+              <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
                 Beautiful Designs
               </h3>
-              <p className=" py-2">
+              <p className=" py-2  dark:text-white">
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className=" py-4 text-teal-600">Design tools I use</h4>
-              <p className=" text-gray-800 py-1">Figma</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
-              <p className=" text-gray-800 py-1">Photoshop</p>
+              <h4 className=" py-4 text-violet-500">Design tools I use</h4>
+              <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
+              <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
             </div>
           </div>
         </section>
-        <section>
+        <section className=" pt-24">
           <div>
-            <h3 className=" text-3xl py-1">Portafolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className=" text-3xl py-1 dark:text-white">Portafolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
+              <span className="text-violet-500"> agencies </span>
+              consulted for<span className="text-violet-500"> startups </span>
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
               I offer from a wide range of services, including brand design,
               programming and teaching.
             </p>
