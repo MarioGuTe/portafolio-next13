@@ -4,53 +4,108 @@ import design from "/public/design.png";
 
 const Cards = () => {
   return (
-    <div className=" lg:flex gap-10">
-      {/* card 1 */}
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-        <Image src={design} width={100} height={100} className=" mx-auto" />
-        <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-          Beautiful Designs
-        </h3>
-        <p className=" py-2  dark:text-white">
-          Creating elegant designs suited for your needs following core design
-          theory.
+    <section>
+      <div className="mt-8">
+        <h3 className=" text-2xl py-2  dark:text-white">Acerca de mí</h3>
+        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
+          Since the beginning of my journey as a freelance designer and
+          developer, I've done remote work for
+          <span className="text-violet-500 "> agencies </span>
+          consulted for <span className="text-violet-500">startups </span>
+          and collaborated with talanted people to create digital products for
+          both business and consumer use.
         </p>
-        <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-        <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-      </div>
-      {/* card 2 */}
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-        <Image src={design} width={100} height={100} className=" mx-auto" />
-        <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-          Beautiful Designs
-        </h3>
-        <p className=" py-2  dark:text-white">
-          Creating elegant designs suited for your needs following core design
-          theory.
+        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
+          I offer from a wide range of services, including brand design,
+          programming and teaching.
         </p>
-        <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-        <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
       </div>
-      {/* card 3 */}
-      <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
-        <Image src={design} width={100} height={100} className=" mx-auto" />
-        <h3 className=" text-lg font-medium pt-8 pb-2  dark:text-white">
-          Beautiful Designs
-        </h3>
-        <p className=" py-2  dark:text-white">
-          Creating elegant designs suited for your needs following core design
-          theory.
-        </p>
-        <h4 className=" py-4 text-violet-500">Design tools I use</h4>
-        <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
-        <p className=" text-gray-800 py-1  dark:text-white">Photoshop</p>
+      {/* Cards Section */}
+      <div className=" lg:flex gap-10">
+        {/* card 1 */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
+          <Image src={design} width={100} height={100} className=" mx-auto" />
+          <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
+            Desarrollo Web
+          </h3>
+          <p className=" py-2  dark:text-white">
+            Me gusta el proceso de tomar una idea por más pequeña o grande que
+            sea y darle vida a través del desarrollo web.
+          </p>
+          <h4 className=" py-4 text-xl font-normal text-violet-500">Skills</h4>
+          <div className="flex flex-wrap">
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              HTML
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              CSS
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              JavaScript
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              ReactJS
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              NodeJS
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Git
+            </p>
+          </div>
+        </div>
+        {/* card 2 */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
+          <Image src={design} width={100} height={100} className=" mx-auto" />
+          <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
+            Educación
+          </h3>
+          <p className=" py-2  dark:text-white">
+            Creating elegant designs suited for your needs following core design
+            theory.
+          </p>
+          <h4 className=" py-4 text-xl font-normal text-violet-500">
+            Design tools I use
+          </h4>
+          <div className="flex flex-wrap">
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Figma
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Photoshop
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Photoshop
+            </p>
+          </div>
+        </div>
+        {/* card 3 */}
+        <div className=" text-center shadow-lg p-10 rounded-xl my-10 shadow-purple-500">
+          <Image src={design} width={100} height={100} className=" mx-auto" />
+          <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
+            Diseño
+          </h3>
+          <p className=" py-2  dark:text-white">
+            Creating elegant designs suited for your needs following core design
+            theory.
+          </p>
+          <h4 className=" py-4 text-xl font-normal text-violet-500">
+            Design tools I use
+          </h4>
+          <div className="flex flex-wrap">
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Figma
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Photoshop
+            </p>
+            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
+              Photoshop
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
