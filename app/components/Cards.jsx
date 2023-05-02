@@ -5,17 +5,15 @@ import design from "/public/design.png";
 const Cards = () => {
   return (
     <section>
-      <div className="mt-8">
-        <h3 className=" text-2xl py-2  dark:text-white">Acerca de mí</h3>
-        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
+      <div className=" bg-violet-400 w-full text-center px-4 py-12 text-white">
+        <h3 className=" text-2xl py-2 font-semibold">Acerca de mí</h3>
+        <p className="text-md py-2 leading-8 font-medium">
           Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
-          <span className="text-violet-500 "> agencies </span>
-          consulted for <span className="text-violet-500">startups </span>
+          developer, I've done remote work for agencies consulted for startups
           and collaborated with talanted people to create digital products for
           both business and consumer use.
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
+        <p className="text-md py-2 leading-8 font-medium">
           I offer from a wide range of services, including brand design,
           programming and teaching.
         </p>
