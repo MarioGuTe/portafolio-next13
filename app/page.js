@@ -8,10 +8,11 @@ import Portafolio from "./components/Portafolio";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+  // global paddings px-10 md:px-20 lg:px-40
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <main className={` bg-white px-10 md:px-20 lg:px-40  dark:bg-zinc-900`}>
-        <nav className=" py-10 mb-12 flex justify-between">
+    <div className={`${darkMode ? "dark" : ""}`}>
+      <main className={` bg-white dark:bg-zinc-900`}>
+        <nav className=" py-8 flex justify-between px-6 md:px-20 lg:px-40">
           <h1 className=" text-base font-burtons  dark:text-white">
             MARIO GUTIÉRREZ
           </h1>

@@ -11,27 +11,27 @@ import {
 
 const Landing = () => {
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen md:px-20 lg:px-40">
       <div className="text-center p-10">
-        <h2 className=" text-5xl py-2 font-semibold text-violet-500  md:text-6xl">
+        <h2 className=" text-4xl py-2 font-semibold text-violet-500  md:text-6xl">
           Mario Gutiérrez
         </h2>
-        <h3 className=" text-2xl py-2 md:text-3xl dark:text-white">
+        <h3 className=" text-xl py-2 md:text-3xl dark:text-white">
           Desarrollador Fullstack JavaScript
         </h3>
-        <p className=" text-lg py-3 leading-8 text-gray-800 md:text-xl  dark:text-white">
+        <p className=" text-base py-3 leading-8 text-gray-800 md:text-xl  dark:text-white">
           El cariño por aprender es la mejor habilidad que puede cultivar un
           desarrollador.
         </p>
       </div>
-      <div className=" text-5xl flex justify-center gap-14 py-3 text-violet-500">
+      <div className=" text-5xl flex justify-center gap-14 py-1 px-6 text-violet-500">
         <DiHtml5 />
         <DiCss3Full />
         <DiJsBadge />
         <DiReact />
         <DiNodejsSmall />
       </div>
-      <div className=" relative mx-auto bg-gradient-to-b from-violet-600 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+      <div className=" relative mx-auto bg-gradient-to-b from-violet-600 rounded-full w-44 h-44 mt-12 overflow-hidden md:h-96 md:w-96">
         <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
       </div>
     </section>
