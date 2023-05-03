@@ -13,9 +13,7 @@ export default function Home() {
     <div className={`${darkMode ? "dark" : ""}`}>
       <main className={` bg-white dark:bg-zinc-900`}>
         <nav className=" py-8 flex justify-between px-6 md:px-20 lg:px-40">
-          <h1 className=" text-base font-burtons  dark:text-white">
-            MARIO GUTIÉRREZ
-          </h1>
+          <h1 className=" text-base dark:text-white">MG</h1>
           <ul className=" flex items-center">
             <li>
               <BsFillMoonStarsFill

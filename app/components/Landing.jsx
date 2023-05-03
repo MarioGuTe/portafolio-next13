@@ -24,12 +24,16 @@ const Landing = () => {
           desarrollador.
         </p>
       </div>
-      <div className=" text-5xl flex justify-center gap-14 py-1 px-6 text-violet-500">
-        <DiHtml5 />
-        <DiCss3Full />
-        <DiJsBadge />
-        <DiReact />
-        <DiNodejsSmall />
+      <div className=" text-4xl flex flex-col justify-center gap-4 py-1 px-6 text-violet-500">
+        <div className=" flex justify-center">
+          <DiHtml5 />
+          <DiCss3Full />
+          <DiJsBadge />
+        </div>
+        <div className=" flex justify-center">
+          <DiReact />
+          <DiNodejsSmall />
+        </div>
       </div>
       <div className=" relative mx-auto bg-gradient-to-b from-violet-600 rounded-full w-44 h-44 mt-12 overflow-hidden md:h-96 md:w-96">
         <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
