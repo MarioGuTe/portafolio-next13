@@ -1,12 +1,13 @@
 import React from "react";
-import Image from "next/image";
-import design from "/public/design.png";
+import { BsFillFileEarmarkCodeFill } from "react-icons/bs";
+import { FaUniversity } from "react-icons/fa";
+import { HiBadgeCheck } from "react-icons/hi";
 
 const Cards = () => {
   return (
     <section>
       <div className=" bg-violet-400 w-full text-center px-4 py-12 text-white">
-        <h3 className=" text-2xl py-2 font-semibold">Acerca de mí</h3>
+        <h3 className=" text-2xl py-2 font-bold">Acerca de mí</h3>
         <p className="text-md py-2 leading-8 font-medium">
           Since the beginning of my journey as a freelance designer and
           developer, I've done remote work for agencies consulted for startups
@@ -22,7 +23,8 @@ const Cards = () => {
       <div className=" lg:flex gap-10 px-6 md:px-20 lg:px-40">
         {/* card 1 */}
         <div className=" text-center  border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          <Image src={design} width={100} height={100} className=" mx-auto" />
+          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
+          <BsFillFileEarmarkCodeFill className=" text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
             Desarrollo Web
           </h3>
@@ -42,7 +44,8 @@ const Cards = () => {
         </div>
         {/* card 2 */}
         <div className=" text-center border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          <Image src={design} width={100} height={100} className=" mx-auto" />
+          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
+          <FaUniversity className=" text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
             Formación
           </h3>
@@ -51,7 +54,7 @@ const Cards = () => {
             razones por las que me levanto cada mañana.
           </p>
           <h4 className=" py-4 text-xl font-medium text-violet-500">
-            Certificaciones y Logros
+            Certificaciones y Cursos
           </h4>
           <div>
             <p className="text-gray-800 py-1  dark:text-white">
@@ -65,9 +68,10 @@ const Cards = () => {
         </div>
         {/* card 3 */}
         <div className=" text-center border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          <Image src={design} width={100} height={100} className=" mx-auto" />
+          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
+          <HiBadgeCheck className="text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
-            Diseño
+            Habilidades Complementarias
           </h3>
           <p className=" py-2  dark:text-white">
             Creating elegant designs suited for your needs following core design
