@@ -9,20 +9,13 @@ import web6 from "/public/web6.png";
 
 const Portafolio = () => {
   return (
-    <section className=" pt-24">
-      <div>
-        <h3 className=" text-3xl py-1 dark:text-white">Portafolio</h3>
-        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
-          Since the beginning of my journey as a freelance designer and
-          developer, I've done remote work for
-          <span className="text-violet-500"> agencies </span>
-          consulted for<span className="text-violet-500"> startups </span>
-          and collaborated with talanted people to create digital products for
-          both business and consumer use.
-        </p>
-        <p className="text-md py-2 leading-8 text-gray-800  dark:text-white">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+    <section className=" pt-8 px-6 md:px-20 lg:px-40">
+      <div className=" w-full text-center px-4 py-12 dark:text-white">
+        <h3 className=" text-2xl py-2 font-bold">Trabajos Recientes</h3>
+        <p className="text-md py-2 leading-8 font-medium">
+          Estos son algunos de mis proyectos y trabajos más recientes dónde se
+          juntan las diferentes tecnologías, conocimientos y habilidades
+          anteriormente mencionadas
         </p>
       </div>
       {/* portafolio projects section */}
