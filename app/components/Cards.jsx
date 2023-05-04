@@ -28,7 +28,6 @@ const Cards = () => {
       <div className=" lg:flex gap-10 px-6 md:px-20 lg:px-40">
         {/* card 1 */}
         <div className=" text-center  border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
           <BsFillFileEarmarkCodeFill className=" text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
             Desarrollo Web
@@ -37,7 +36,9 @@ const Cards = () => {
             Me gusta el proceso de tomar una idea por más pequeña o grande que
             sea y darle vida a través del desarrollo web.
           </p>
-          <h4 className=" py-4 text-xl font-medium text-violet-500">Skills</h4>
+          <h4 className=" py-4 text-xl font-medium text-violet-500">
+            Lenguajes y Frameworks
+          </h4>
           <div>
             <p className="text-gray-800 py-1  dark:text-white">HTML</p>
             <p className="text-gray-800 py-1  dark:text-white">CSS</p>
@@ -49,7 +50,6 @@ const Cards = () => {
         </div>
         {/* card 2 */}
         <div className=" text-center border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
           <FaUniversity className=" text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
             Formación
@@ -59,41 +59,40 @@ const Cards = () => {
             razones por las que me levanto cada mañana.
           </p>
           <h4 className=" py-4 text-xl font-medium text-violet-500">
-            Certificaciones y Cursos
+            Certificados y Cursos
           </h4>
           <div>
             <p className="text-gray-800 py-1  dark:text-white">
-              Desarrollador Fullstack Javascript (Bootcamp Desafío Latam 2022
-              -2023)
+              Desarrollador Fullstack Javascript (Bootcamp Desafío Latam
+              2022-2023)
             </p>
             <p className="text-gray-800 py-1  dark:text-white">
-              React JS Fundamentals (Escalaba: Tech Talents Hub 2023)
+              React JS Fundamentals (Escalab: Tech Talents Hub 2023)
+            </p>
+            <p className="text-gray-800 py-1  dark:text-white">
+              Complete Web & Mobile Designer UI/UX (Udemy 2023)
             </p>
           </div>
         </div>
         {/* card 3 */}
         <div className=" text-center border-solid border-4 border-violet-100 p-10 rounded-xl my-10 shadow-purple-500">
-          {/* <Image src={design} width={100} height={100} className=" mx-auto" /> */}
           <HiBadgeCheck className="text-8xl mx-auto  text-violet-500" />
           <h3 className=" text-2xl font-semibold pt-8 pb-2  text-violet-500">
-            Habilidades Complementarias
+            Habilidades
           </h3>
           <p className=" py-2  dark:text-white">
-            Creating elegant designs suited for your needs following core design
-            theory.
+            En mi día a día estas son algunas de las aptitudes y herramientas
+            que empleo para enriquecer mi trabajo.
           </p>
           <h4 className=" py-4 text-xl font-medium text-violet-500">
-            Design tools I use
+            Skills Complementarias
           </h4>
-          <div className="flex flex-wrap">
-            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
-              Figma
-            </p>
-            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
-              Photoshop
-            </p>
-            <p className=" basis-1/3 flex-1 text-gray-800 py-1  dark:text-white">
-              Photoshop
+          <div>
+            <p className=" text-gray-800 py-1  dark:text-white">Diseño UX/UI</p>
+            <p className=" text-gray-800 py-1  dark:text-white">Figma</p>
+            <p className=" text-gray-800 py-1  dark:text-white">Kanban</p>
+            <p className=" text-gray-800 py-1  dark:text-white">
+              Inglés Avanzado EF SET Certificate C2
             </p>
           </div>
         </div>
