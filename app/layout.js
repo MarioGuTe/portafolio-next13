@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Roboto_Mono } from "next/font/google";
+import { Providers } from "./providers";
 
 const poppins = Roboto_Mono({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
@@ -13,8 +14,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={poppins.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={poppins.className}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }
