@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Landing from "./components/Landing";
 import Cards from "./components/Cards";
 import Portafolio from "./components/Portafolio";
