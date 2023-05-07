@@ -26,7 +26,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
         <div className=" basis-1/3 flex-1">
@@ -35,7 +36,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
         <div className=" basis-1/3 flex-1">
@@ -44,7 +46,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
         <div className=" basis-1/3 flex-1">
@@ -53,7 +56,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
         <div className=" basis-1/3 flex-1">
@@ -62,7 +66,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
         <div className=" basis-1/3 flex-1">
@@ -71,7 +76,8 @@ const Portafolio = () => {
             className=" rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            responsive
+            responsive="true"
+            alt="photo"
           />
         </div>
       </div>
