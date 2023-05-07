@@ -36,7 +36,7 @@ const Landing = () => {
         </div>
       </div>
       <div className=" relative mx-auto bg-gradient-to-b from-violet-600 rounded-full w-44 h-44 mt-12 overflow-hidden md:h-72 md:w-72 lg:mt-4 lg:h-52 lg:w-52">
-        <Image src={Mario} alt="" fill style={{ objectFit: "cover" }} />
+        <Image src={Mario} alt="avatar" fill style={{ objectFit: "cover" }} />
       </div>
     </section>
   );
