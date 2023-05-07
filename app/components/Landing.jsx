@@ -11,7 +11,7 @@ import {
 
 const Landing = () => {
   return (
-    <section className="min-h-screen md:px-20 lg:px-40">
+    <section className="min-h-screen md:px-20 lg:px-40 dark:bg-gray-900">
       <div className="text-center p-10">
         <h2 className=" text-4xl py-2 font-semibold text-violet-500  md:text-5xl">
           Mario Gutiérrez
