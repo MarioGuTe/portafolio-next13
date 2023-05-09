@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import Landing from "./components/Landing";
@@ -7,13 +7,23 @@ import Cards from "./components/Cards";
 import Portafolio from "./components/Portafolio";
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme, systemTheme } = useTheme();
+
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
 
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   return (
-    <div>
-      <main className="bg-white dark:bg-black">
+    <div className=" bg-white dark:bg-gray-900">
+      <main className=" bg-white dark:bg-black">
         <nav className=" py-8 flex justify-between px-6 md:px-20 md:pb-0 lg:px-40">
           <h1 className=" text-base dark:text-white">MG</h1>
           <ul className=" flex items-center">

@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Roboto_Mono } from "next/font/google";
-import { Providers } from "./providers";
+import Providers from "./providers";
 
 const poppins = Roboto_Mono({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
