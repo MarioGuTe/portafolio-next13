@@ -11,8 +11,10 @@ const Portafolio = () => {
   return (
     <section className=" pt-8 px-6 md:px-20 lg:px-40">
       <div className=" w-full text-center px-4 py-12 dark:text-white">
-        <h3 className=" text-2xl py-2 font-bold">Trabajos Recientes</h3>
-        <p className="text-md py-2 leading-8 font-medium">
+        <h3 className=" text-2xl py-2  text-violet-500 font-bold">
+          Trabajos Recientes
+        </h3>
+        <p className="text-md py-2 leading-8  font-medium">
           Estos son algunos de mis proyectos y trabajos más recientes dónde se
           juntan las diferentes tecnologías, conocimientos y habilidades
           anteriormente mencionadas
