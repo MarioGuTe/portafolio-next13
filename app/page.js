@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Landing from "./components/Landing";
 import Cards from "./components/Cards";
 import Portafolio from "./components/Portafolio";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -40,6 +41,7 @@ export default function Home() {
         <Landing />
         <Cards />
         <Portafolio />
+        <ContactForm />
       </main>
     </div>
   );
