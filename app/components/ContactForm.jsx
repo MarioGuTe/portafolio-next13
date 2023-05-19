@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <section className=" flex justify-center bg-violet-500 py-8">
+    <section className=" flex flex-col justify-center bg-violet-500 py-8">
       <form
         action=""
         className=" bg-white rounded-lg flex flex-col p-4 mx-4 gap-4"
@@ -38,8 +38,17 @@ const ContactForm = () => {
             className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           ></textarea>
         </div>
-        <button>Enviar</button>
+        <button className="  py-3 rounded-lg bg-violet-500 text-white text-lg font-medium">
+          Enviar
+        </button>
       </form>
+      <div className=" text-center mt-6">
+        <h2>Datos de Contacto</h2>
+        <div>
+          <p>mariogutierreztello@gmail.com</p>
+          <p>+569 42642310</p>
+        </div>
+      </div>
     </section>
   );
 };
