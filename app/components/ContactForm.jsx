@@ -19,6 +19,7 @@ const ContactForm = () => {
         <div className=" flex flex-col">
           <label htmlFor="name">Nombre</label>
           <input
+            required
             type="text"
             className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
@@ -26,6 +27,7 @@ const ContactForm = () => {
         <div className=" flex flex-col">
           <label htmlFor="name">Correo Electrónico</label>
           <input
+            required
             type="text"
             className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
@@ -33,6 +35,7 @@ const ContactForm = () => {
         <div className=" flex flex-col">
           <label htmlFor="name">Mensaje</label>
           <textarea
+            required
             name=""
             id=""
             cols="15"
