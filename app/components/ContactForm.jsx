@@ -1,4 +1,6 @@
 import React from "react";
+import { HiMail } from "react-icons/hi";
+import { RiWhatsappFill } from "react-icons/ri";
 
 const ContactForm = () => {
   return (
@@ -42,11 +44,17 @@ const ContactForm = () => {
           Enviar
         </button>
       </form>
-      <div className=" text-center mt-6">
+      <div className=" text-center mt-6 text-white font-medium">
         <h2>Datos de Contacto</h2>
-        <div>
-          <p>mariogutierreztello@gmail.com</p>
-          <p>+569 42642310</p>
+        <div className=" mt-3">
+          <div className=" flex items-center justify-center gap-1">
+            <HiMail className=" text-xl" />
+            <p>mariogutierreztello@gmail.com</p>
+          </div>
+          <div className=" flex items-center justify-center gap-1">
+            <RiWhatsappFill className=" text-xl" />
+            <p>+569 42642310</p>
+          </div>
         </div>
       </div>
     </section>
