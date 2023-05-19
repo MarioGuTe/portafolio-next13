@@ -9,7 +9,7 @@ const ContactForm = () => {
       >
         <div>
           <h2 className=" text-xl font-semibold">Conversemos 😉</h2>
-          <p className=" text-sm text-gray-500">
+          <p className=" text-sm text-gray-500 mt-2">
             Si tienes cualquier idea, sugerencia o simplemente quieres hablar de
             programación no dudes en escribirme
           </p>
@@ -18,14 +18,14 @@ const ContactForm = () => {
           <label htmlFor="name">Nombre</label>
           <input
             type="text"
-            className=" border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
+            className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
         </div>
         <div className=" flex flex-col">
           <label htmlFor="name">Correo Electrónico</label>
           <input
             type="text"
-            className=" border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
+            className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
         </div>
         <div className=" flex flex-col">
@@ -35,7 +35,7 @@ const ContactForm = () => {
             id=""
             cols="15"
             rows="5"
-            className=" border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
+            className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           ></textarea>
         </div>
         <button>Enviar</button>
