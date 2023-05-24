@@ -4,10 +4,10 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const ContactForm = () => {
   return (
-    <section className=" flex flex-col justify-center bg-violet-500 py-8">
+    <section className=" flex flex-col justify-center items-center bg-violet-500 py-8">
       <form
         action=""
-        className=" bg-white rounded-lg flex flex-col p-4 mx-4 gap-4"
+        className=" bg-white rounded-lg flex flex-col p-4 mx-4 gap-4  lg:w-3/6"
       >
         <div>
           <h2 className=" text-xl font-semibold">Conversemos 😉</h2>
