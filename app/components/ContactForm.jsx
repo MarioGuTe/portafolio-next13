@@ -1,12 +1,36 @@
-import React from "react";
+"use client";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { HiMail } from "react-icons/hi";
 import { RiWhatsappFill } from "react-icons/ri";
 
 const ContactForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_05bgfvb",
+        "template_3wxl3dn",
+        form.current,
+        "d9irpIOUJg0F2B-IX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className=" flex flex-col justify-center items-center bg-violet-500 py-8">
       <form
-        action=""
+        ref={form}
+        onSubmit={sendEmail}
         className=" bg-white rounded-lg flex flex-col p-4 mx-4 gap-4  lg:w-3/6"
       >
         <div>
@@ -21,6 +45,7 @@ const ContactForm = () => {
           <input
             required
             type="text"
+            name="from_name"
             className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
         </div>
@@ -28,7 +53,8 @@ const ContactForm = () => {
           <label htmlFor="name">Correo Electrónico</label>
           <input
             required
-            type="text"
+            type="email"
+            name="email_id"
             className=" p-1 border-solid border-4 border-violet-100 rounded-md focus:border-solid focus:border-4 focus:border-violet-300 outline-none"
           />
         </div>
@@ -36,7 +62,7 @@ const ContactForm = () => {
           <label htmlFor="name">Mensaje</label>
           <textarea
             required
-            name=""
+            name="message"
             id=""
             cols="15"
             rows="5"
