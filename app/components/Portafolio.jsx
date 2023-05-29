@@ -47,7 +47,14 @@ const Portafolio = () => {
           <p>
             Página profesional para la banda de Jazz Santiaguina "PonteBebop"
             con un enfoque en la experiencia de usuario por medio de animaciones
-            e interacciones minimalistas y elegantes.
+            e interacciones minimalistas y elegantes.{" "}
+            <a
+              className=" text-violet-500 font-semibold"
+              href="https://ponte-bebop.netlify.app/"
+              target="_blank"
+            >
+              Visitar Página
+            </a>
           </p>
         </div>
         <div className=" basis-1/3 flex-1">
