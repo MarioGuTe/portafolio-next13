@@ -76,18 +76,27 @@ const Portafolio = () => {
           </p>
         </div>
         <div className=" basis-1/3 flex-1">
-          <Image
-            src={web4}
-            className=" rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            responsive="true"
-            alt="photo"
-          />
+          <a href="https://todoappmg.netlify.app/" target="_blank">
+            <Image
+              src={web4}
+              className=" rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              responsive="true"
+              alt="photo"
+            />
+          </a>
           <p className=" dark:text-white">
             Aplicación clásica de tipo "Todo"(listado de tareas) hecha en
             Vanilla JS dónde se ponen en práctica todas las habilidades lógicas
-            y funcionales básicas para una comprensión robusta de JavasScript.
+            y funcionales básicas para una comprensión robusta de JavasScript.{" "}
+            <a
+              className=" text-violet-500 font-semibold"
+              href="https://todoappmg.netlify.app/"
+              target="_blank"
+            >
+              Visitar Página
+            </a>
           </p>
         </div>
       </div>
