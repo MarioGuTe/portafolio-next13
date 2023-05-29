@@ -36,14 +36,16 @@ const Portafolio = () => {
           </p>
         </div>
         <div className=" basis-1/3 flex-1">
-          <Image
-            src={web2}
-            className=" rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            responsive="true"
-            alt="photo"
-          />
+          <a href="https://ponte-bebop.netlify.app/" target="_blank">
+            <Image
+              src={web2}
+              className=" rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              responsive="true"
+              alt="photo"
+            />
+          </a>
           <p className=" dark:text-white">
             Página profesional para la banda de Jazz Santiaguina "PonteBebop"
             con un enfoque en la experiencia de usuario por medio de animaciones
