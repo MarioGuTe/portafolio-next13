@@ -29,7 +29,7 @@ const Portafolio = () => {
             responsive="true"
             alt="photo"
           />
-          <p className=" dark:text-white">
+          <p className=" dark:text-white pt-6">
             Portafolio personal dónde se aplicaron tecnologías modernas como lo
             son la última versión del superset Next13 de ReactJS y el popular
             framework Tailwind CSS para el estilo de la página.
@@ -46,7 +46,7 @@ const Portafolio = () => {
               alt="photo"
             />
           </a>
-          <p className=" dark:text-white">
+          <p className=" dark:text-white pt-6">
             Página profesional para la banda de Jazz Santiaguina "PonteBebop"
             con un enfoque en la experiencia de usuario por medio de animaciones
             e interacciones minimalistas y elegantes.{" "}
@@ -68,7 +68,7 @@ const Portafolio = () => {
             responsive="true"
             alt="photo"
           />
-          <p className=" dark:text-white">
+          <p className=" dark:text-white pt-6">
             Sitio de búsqueda y descarga de Fotografías profesionales utilizando
             la API de Pexels y la herramienta de desarrollo para frontend Vite
             para JavaScript con el fin de entregar una experiencia de usuario
@@ -86,7 +86,7 @@ const Portafolio = () => {
               alt="photo"
             />
           </a>
-          <p className=" dark:text-white">
+          <p className=" dark:text-white pt-6">
             Aplicación clásica de tipo "Todo"(listado de tareas) hecha en
             Vanilla JS dónde se ponen en práctica todas las habilidades lógicas
             y funcionales básicas para una comprensión robusta de JavasScript.{" "}
