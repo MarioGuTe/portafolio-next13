@@ -12,7 +12,7 @@ const Portafolio = () => {
         <h3 className=" text-2xl py-2  text-violet-500 font-bold">
           Trabajos Recientes
         </h3>
-        <p className="text-md py-2 leading-8 font-normal">
+        <p className="text-md py-2 leading-8 font-normal lg:text-lg">
           Estos son algunos de mis proyectos y trabajos más recientes dónde se
           juntan las diferentes tecnologías, conocimientos y habilidades
           anteriormente mencionadas
