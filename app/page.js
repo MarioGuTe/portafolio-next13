@@ -13,7 +13,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <main className=" bg-white dark:bg-gray-900">
         <nav className=" py-8 flex justify-between px-6 md:px-20 md:pb-0 lg:px-40">
-          <h1 className=" text-base dark:text-white">MG</h1>
+          <h1 className=" text-base text-white dark:text-gray-900">MG</h1>
           <ul className=" flex items-center">
             <li>
               {darkMode === "dark" ? (
