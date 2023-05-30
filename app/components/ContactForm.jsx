@@ -27,7 +27,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className=" flex flex-col justify-center items-center bg-violet-500 py-8">
+    <section className=" flex flex-col justify-center items-center bg-violet-500 py-12">
       <form
         ref={form}
         onSubmit={sendEmail}
