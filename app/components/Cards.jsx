@@ -8,7 +8,7 @@ const Cards = () => {
     <section>
       <div className=" bg-violet-400 w-full text-center px-4 py-12 text-white">
         <h3 className=" text-2xl py-2 font-bold">Acerca de mí</h3>
-        <p className="text-md py-2 leading-8 font-medium lg:mx-40 lg:py-6">
+        <p className="text-md py-2 leading-8 font-medium lg:text-xl lg:mx-40 lg:py-6">
           Hola soy Mario, Desarrollador Fullstack además de Músico Profesional
           de basta experiencia, he desarrollado distitntos proyectos de manera
           freelance, independiente y autónoma dónde he implementando soluciones
@@ -16,7 +16,7 @@ const Cards = () => {
           con la interfaz de usuario aplicando distintas tecnologías como
           JavaScript, React, HTML, CSS.
         </p>
-        <p className="text-md py-2 leading-8 font-medium lg:mx-40">
+        <p className="text-md py-2 leading-8 font-medium lg:text-xl lg:mx-40">
           Soy una persona constante, responsable y sobre todo apasionada por
           aprender nuevas tecnologías, aptitudes que me han permitido explorar
           con profundidad diferentes desafios personales y de igual manera me
