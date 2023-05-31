@@ -74,7 +74,14 @@ const Portafolio = () => {
             Sitio de búsqueda y descarga de Fotografías profesionales utilizando
             la API de Pexels y la herramienta de desarrollo para frontend Vite
             para JavaScript con el fin de entregar una experiencia de usuario
-            más rápida e inmediata.
+            más veloz.{" "}
+            <a
+              className=" text-violet-500 font-semibold"
+              href="https://fantastifotos.vercel.app/"
+              target="_blank"
+            >
+              Visitar Página
+            </a>
           </p>
         </div>
         <div className=" basis-1/3 flex-1">
