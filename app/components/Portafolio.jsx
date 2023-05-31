@@ -60,14 +60,16 @@ const Portafolio = () => {
           </p>
         </div>
         <div className=" basis-1/3 flex-1">
-          <Image
-            src={web3}
-            className=" rounded-lg object-cover"
-            width={"100%"}
-            height={"100%"}
-            responsive="true"
-            alt="photo"
-          />
+          <a href="https://fantastifotos.vercel.app/" target="_blank">
+            <Image
+              src={web3}
+              className=" rounded-lg object-cover"
+              width={"100%"}
+              height={"100%"}
+              responsive="true"
+              alt="photo"
+            />
+          </a>
           <p className=" dark:text-white pt-6">
             Sitio de búsqueda y descarga de Fotografías profesionales utilizando
             la API de Pexels y la herramienta de desarrollo para frontend Vite
