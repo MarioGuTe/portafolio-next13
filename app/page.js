@@ -31,7 +31,9 @@ export default function Home() {
             <li>
               <a
                 className="bg-gradient-to-r from-violet-700 to-violet-500 text-white px-2 py-2 rounded-md ml-4"
-                href="#"
+                href="/01-mario-gutierrez-cv.pdf"
+                // download="01-mario-gutierrez-cv"
+                target="_blank"
               >
                 Curriculum
               </a>
