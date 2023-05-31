@@ -72,7 +72,7 @@ const Portafolio = () => {
           </a>
           <p className=" dark:text-white pt-6">
             Sitio de búsqueda y descarga de Fotografías profesionales utilizando
-            la API de Pexels y la herramienta de desarrollo para frontend Vite
+            la API de Pixabay y la herramienta de desarrollo para frontend Vite
             para JavaScript con el fin de entregar una experiencia de usuario
             más veloz.{" "}
             <a
